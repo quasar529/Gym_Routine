@@ -79,4 +79,16 @@ a{
     position: relative;
     top:1500px;
     text-align: center;
+    font-size: 1.5rem;
+}
+@media(max-width:550px){
+    #img2{
+        width: 70vw;
+        height: 35vh;
+
+    }
+    #img1, #img3{
+        width: 50vw;
+        height: 66vh;
+    }
 }
