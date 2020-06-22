@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Notable&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 16px;
+
+}
+/* .backimage{
+    background:url(pgthumbnail.jpg) no-repeat center/cover ;
+    opacity: 0.8;
+    height: 100vh;
+} */
+.point{
+    text-align: center;
+    padding: 5vh 5vw;
+    font-size: 1.5rem;
+}
+.img-container{
+    display: grid;
+    /* flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw; */
+    grid-template-columns: repeat(4,1fr);
+}
+.video-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bigmuscle{
+    width: 25vw;
+}
+.summary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.program{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+.strongA, .weakB, .midC{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5vh 5vw;
+    margin:1vh 1vw;
+    font-size: 2rem;
+    border: 1px solid rgb(21,21,21);
+    border-radius: 10px;
+}
+.dum{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    font-size: 1.3rem;
+}
+.fordum{
+    text-align: center;
+}
