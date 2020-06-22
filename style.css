@@ -62,7 +62,7 @@ main{
     animation: shine 3s ease-in-out infinite;
 }
 .loader-wrap{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color: #111;
     top:0;
@@ -73,7 +73,7 @@ main{
     align-items: center;
 }
 .loader{
-    font-size: 8rem;
+    font-size: 10vw;
     font-family: 'Do Hyeon', sans-serif;
     animation: shine 1.3s ease-in-out infinite;
 }
@@ -94,7 +94,7 @@ main{
 }
 
 #img1{
-    background: url(/images/gym.jpg) no-repeat center/cover fixed;
+    background: url(gym.jpg) no-repeat center/cover fixed;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -106,14 +106,14 @@ main{
     font-family: 'Notable', sans-serif;
 }
 #img2{
-    background: url(./DeadLift.jpg) no-repeat center/cover fixed;
+    background: url(DeadLift.jpg) no-repeat center/cover fixed;
 }
 #img3{
-    background: url(./squat_pro.jpg) no-repeat center/cover fixed;
+    background: url(squat_pro.jpg) no-repeat center/cover fixed;
     
 }
 #img4{
-    background: url(./workoutman.jpg) no-repeat center/cover fixed;
+    background: url(workoutman.jpg) no-repeat center/cover fixed;
 }
 .texts{
     font-size:4vw;
@@ -143,17 +143,19 @@ main{
     padding: 10px 10px;
     font-size: 4vw;
     text-align: center;
-    visibility: hidden;
+    
     width:30vw;
     height: 20vh;
     top:40vh;
+    
 }
 .start-btn a{
     cursor: pointer;
 }
 .show-btn{
     visibility:visible !important;
-    border: 1px solid #fff;
+    border: transparent;
+    /* animation: getbigger 2s ease-in-out; */
 }
 .show-cursor{
     visibility:visible !important;
@@ -190,5 +192,16 @@ main{
     }
     100%{
         color: rgb(173, 25, 25);
+    }
+}
+@keyframes getbigger{
+    0%{
+        transform: scale(1.0);
+    }
+    50%{
+        transform: scale(2.0);
+    }
+    100%{
+        transform: scale(3.0);
     }
 }

@@ -49,25 +49,10 @@ topBtn.addEventListener('click',function(){
 
 //temp
 goToStart.addEventListener('mouseover',function(e){
-
-    //cursor.style.top = e.pageY + "px";
-    //cursor.style.left = e.pageX + "px";
-    //cursor.classList.add("show-cursor");
     startBtn.classList.add("show-btn");
     console.log(cursor.style.top);
-
 })
 
-// function fadeOut(e){
-//     let level=1;
-//     let outTime;
-//     outTime=setInterval(function(){
-//         level=fadeOutAc
-//     })
-// }
-// function fadeOutAction(e,level,time){
-//     level=level-0.1;
-// }
-// window.addEventListener('load',function(){
-//     $(loaderWrap).fadeOut("slow");
-// })
+startBtn.addEventListener('mouseover',function(){
+    startBtn.style.transform="scale(2.0)";
+})

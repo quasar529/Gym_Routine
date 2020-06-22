@@ -95,6 +95,16 @@ a{
 .fordum{
     text-align: center;
 }
+@media(min-width:1000px){
+    .program{
+        display: flex;
+        flex-direction: column;
+    }
+    .strongA, .weakB, .midC{
+        display: flex;
+        flex-direction: row;
+    }
+}
 @keyframes glow{
     0%{
         color:red;
