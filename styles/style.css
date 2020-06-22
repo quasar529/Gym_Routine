@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Notable&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+
+}
+html,body{
+    width: 100%;
+}
+body{
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 16px;
+
+    background-color:rgba(21, 21, 21);
+    color:white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+main{
+    display: none;
+
+}
+.next{
+    background: transparent;
+    left: 3vw;
+    bottom: 3vh;
+    border: transparent;
+    position: fixed;
+    font-size: 3rem;
+    color:white;
+    font-family: 'Do Hyeon', sans-serif;
+    z-index:10;
+    animation: changeColor 3s ease-in-out infinite;
+}
+.next:hover{
+    transform: translate(0,-30%);
+    cursor: pointer;
+}
+.top{
+    background: transparent;
+    border: double;
+    border-radius: 50%;
+    position: fixed;
+    font-size: 2rem;
+    color:white;
+    font-family: 'Do Hyeon', sans-serif;
+    z-index:10;
+    bottom: 3vh;
+    right: 3vw;
+    width: 4rem;
+    height: 4rem;
+    display: grid;
+    place-items: center;
+    animation: shine 3s ease-in-out infinite;
+}
+.loader-wrap{
+    width: 100%;
+    height: 100vh;
+    background-color: #111;
+    top:0;
+    left:0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader{
+    font-size: 8rem;
+    font-family: 'Do Hyeon', sans-serif;
+    animation: shine 1.3s ease-in-out infinite;
+}
+.section{
+    text-align: center;
+    min-height: 100vh;
+    padding: 5rem auto;
+}
+
+.imgs{
+    position: relative;
+    opacity: 0.7;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+#img1{
+    background: url(images/gym.jpg) no-repeat center/cover fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+#img1 p{
+    font-size:5vw;
+    font-family: 'Notable', sans-serif;
+}
+#img2{
+    background: url(images/DeadLift.jpg) no-repeat center/cover fixed;
+}
+#img3{
+    background: url(images/squat_pro.jpg) no-repeat center/cover fixed;
+    
+}
+#img4{
+    background: url(images/workoutman.jpg) no-repeat center/cover fixed;
+}
+.texts{
+    font-size:4vw;
+}
+#text1{
+    font-size: 15vw;
+    font-weight: bold;
+    font-family: 'Notable', sans-serif;
+    letter-spacing: 1rem;
+}
+
+#go-to-start{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20vh 10vw;
+    height: 30vh;
+    
+}
+.start-btn{
+    background: transparent;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: 'Notable', sans-serif;
+    padding: 10px 10px;
+    font-size: 4vw;
+    text-align: center;
+    visibility: hidden;
+    width:30vw;
+    height: 20vh;
+    top:40vh;
+}
+.start-btn a{
+    cursor: pointer;
+}
+.show-btn{
+    visibility:visible !important;
+    border: 1px solid #fff;
+}
+.show-cursor{
+    visibility:visible !important;
+    background: #fff;
+    opacity: 0.4;
+}
+.cursor{
+    visibility: hidden;
+    width: 15rem;
+    height: 15rem;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    transform:translate(-50%,-50%) ;
+}
+
+@keyframes shine{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes changeColor{
+    0%{
+        color: rgb(173, 25, 25);
+    }
+    50%{
+        color:#FFF;
+    }
+    100%{
+        color: rgb(173, 25, 25);
+    }
+}
