@@ -106,14 +106,14 @@ main{
     font-family: 'Notable', sans-serif;
 }
 #img2{
-    background: url(/images/DeadLift.jpg) no-repeat center/cover fixed;
+    background: url(./DeadLift.jpg) no-repeat center/cover fixed;
 }
 #img3{
-    background: url(/images/squat_pro.jpg) no-repeat center/cover fixed;
+    background: url(./squat_pro.jpg) no-repeat center/cover fixed;
     
 }
 #img4{
-    background: url(/images/workoutman.jpg) no-repeat center/cover fixed;
+    background: url(./workoutman.jpg) no-repeat center/cover fixed;
 }
 .texts{
     font-size:4vw;

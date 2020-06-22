@@ -13,15 +13,30 @@ body{
     font-size: 16px;
 
 }
-/* .backimage{
-    background:url(pgthumbnail.jpg) no-repeat center/cover ;
-    opacity: 0.8;
-    height: 100vh;
-} */
+a{
+    text-decoration: none;
+    animation: glow 3s ease-in-out infinite;
+}
+.program-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.desc{
+    margin-bottom: 2vh;
+    font-size: 1.3rem;
+}
 .point{
     text-align: center;
     padding: 5vh 5vw;
     font-size: 1.5rem;
+}
+.img-container1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center space-evenly;
 }
 .img-container{
     display: grid;
@@ -38,7 +53,10 @@ body{
     align-items: center;
     justify-content: space-evenly;
 }
-
+.feel{
+    height: 25vh;
+    padding: 0 1vw;
+}
 .bigmuscle{
     width: 25vw;
 }
@@ -72,7 +90,19 @@ body{
     flex-direction: column;
     align-content: center;
     font-size: 1.3rem;
+    margin: 10vh 0;
 }
 .fordum{
     text-align: center;
+}
+@keyframes glow{
+    0%{
+        color:red;
+    }
+    50%{
+        color:black;
+    }
+    100%{
+        color:red;
+    }
 }
