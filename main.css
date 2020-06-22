@@ -59,14 +59,21 @@ a{
 /* #img3{
     background: url(images/trigger.jpg) no-repeat center;
 } */
-#img1, #img2,#img3{
-    width: 30vw;
-    height: 60vh;
+#img1, #img3{
+    width: 33vw;
+    height: 65vh;
     opacity: 0.85;
     margin:2vh 0;
     border-radius: 10px;
     /* border:1px solid #888888; */
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) */
+}
+#img2{
+    width: 60vw;
+    height: 50vh;
+    opacity: 0.85;
+    margin:2vh 0;
+    border-radius: 10px;
 }
 .caution{
     position: relative;

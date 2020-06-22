@@ -94,15 +94,23 @@ a{
 }
 .fordum{
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
-@media(min-width:1000px){
+.fordum img{
+    width: 10vw;
+    height: 10vh;
+}
+@media(max-width:950px){
     .program{
         display: flex;
         flex-direction: column;
     }
     .strongA, .weakB, .midC{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
 }
 @keyframes glow{
