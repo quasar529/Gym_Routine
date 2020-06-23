@@ -17,7 +17,7 @@ a{
     animation: glow 2s ease-in-out infinite;
 }
 .img-container{
-    background: url(./legend-thumnail.jpg) center/cover no-repeat fixed;
+    background: url(./legend-thumnail.jpg) center/cover no-repeat;
     opacity: 0.6;
     width: 100vw;
     height: 60vh;
