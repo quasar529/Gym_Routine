@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Notable&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 16px;
+    line-height: 3rem;
+}
+a{
+    text-decoration: none;
+    color: rgba(21,21,21);
+    animation: glow 3s ease-in-out infinite;
+}
+.howto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.beginner, .mid, .advanced{
+    width: 100vw;
+    height: 80vh;
+    border: 1px solid rgba(21,21,21);
+    padding-top: 10vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.level{
+    font-size: 3rem;
+    margin: 5vh 0;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center; 
+}
+.divide, .recommend{
+    padding: 0 1.5vw;
+    text-align: left;
+}
+.divide-title, .recommend-title{
+    font-size: 2rem;
+}
+ol, ul{
+    font-size: 1.5rem;
+}
+.should{
+    text-align: center;
+    font-size: 1.2rem;
+}
+@media(max-width:600px){
+    .content{
+        flex-direction: column;
+    }
+    .beginner, .mid, .advanced{
+        height: 110vh;
+    }
+    .divide, .recommend{
+        padding: 3vh 0;
+    }
+}
+@keyframes glow{
+    0%{
+        color:rgba(209, 28, 28, 0.8);
+    }
+    50%{
+        color:black;
+    }
+    100%{
+        color:rgba(209, 28, 28, 0.8);
+    }
+}
