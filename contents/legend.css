@@ -99,6 +99,7 @@ ol, ul{
     place-items: center;
     z-index: -10;
     visibility: hidden;
+    opacity: 0.85;
 }
 .open-modal{
     visibility: visible;
@@ -134,6 +135,11 @@ ol, ul{
     width: 2.5vw;
 }
 @media(max-width:650px){
+    .img-container{
+        height: 45vh;
+        font-size: 1.1rem;
+        line-height: 3.5rem;
+    }
     .content{
         flex-direction: column;
     }
