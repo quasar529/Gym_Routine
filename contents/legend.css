@@ -20,7 +20,7 @@ a{
     background: url(./legend-thumnail.jpg) center/cover no-repeat fixed;
     opacity: 0.6;
     width: 100vw;
-    height: 70vh;
+    height: 60vh;
     text-align: center;
     color: #FFF;
     font-size: 2rem;
@@ -105,7 +105,7 @@ ol, ul{
     z-index: 10;
 }
 .modal-container{
-    width:30vw;
+    width:45vw;
     height: 70vh;
     text-align: center;
     position: relative;
@@ -113,6 +113,7 @@ ol, ul{
     background-color: #111;
     display: grid;
     border-radius: 10px;
+    line-height: 3.5rem;
 }
 .routine1, .routine2{
     color:#fff;
@@ -147,10 +148,10 @@ ol, ul{
     }
     .modal-container{
         height: 70vh;
-        width: 45vw;
+        width: 60vw;
     }
     .close-btn1 img,.close-btn2 img{
-        width: 4vw;
+        width: 3vw;
     }
 }
 @keyframes glow{
