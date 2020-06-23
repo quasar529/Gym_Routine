@@ -3,16 +3,32 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
 body{
     font-family: 'Do Hyeon', sans-serif;
     font-size: 16px;
     line-height: 3rem;
+    overflow-x: hidden;
 }
 a{
     text-decoration: none;
     color: rgba(21,21,21);
-    animation: glow 3s ease-in-out infinite;
+    animation: glow 2s ease-in-out infinite;
+}
+.img-container{
+    background: url(./legend-thumnail.jpg) center/cover no-repeat fixed;
+    opacity: 0.6;
+    width: 100vw;
+    height: 70vh;
+    text-align: center;
+    color: #FFF;
+    font-size: 2rem;
+    line-height: 5.5rem;
+}
+figcaption{
+    text-align: center;
+    font-size: 1.5rem;
 }
 .howto{
     display: flex;
@@ -23,11 +39,12 @@ a{
 }
 .beginner, .mid, .advanced{
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     border: 1px solid rgba(21,21,21);
     padding-top: 10vh;
     padding-left: 10vw;
     padding-right: 10vw;
+    margin-bottom: 5vh;
 }
 .level{
     font-size: 3rem;
@@ -54,12 +71,13 @@ ol, ul{
     text-align: center;
     font-size: 1.2rem;
 }
-@media(max-width:600px){
+@media(max-width:650px){
     .content{
         flex-direction: column;
     }
     .beginner, .mid, .advanced{
-        height: 110vh;
+        height: 130vh;
+        
     }
     .divide, .recommend{
         padding: 3vh 0;
