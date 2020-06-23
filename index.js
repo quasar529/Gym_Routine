@@ -53,6 +53,6 @@ goToStart.addEventListener('mouseover',function(e){
     console.log(cursor.style.top);
 })
 
-startBtn.addEventListener('mouseover',function(){
-    startBtn.style.transform="scale(2.0)";
-})
+// startBtn.addEventListener('mouseover',function(){
+//     startBtn.style.transform="scale(2.0)";
+// })

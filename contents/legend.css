@@ -153,6 +153,9 @@ ol, ul{
     .close-btn1 img,.close-btn2 img{
         width: 3vw;
     }
+    .close-btn1,.close-btn2{
+        right: 0.5rem;
+    }
 }
 @keyframes glow{
     0%{
