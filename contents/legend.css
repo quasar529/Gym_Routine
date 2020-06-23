@@ -20,11 +20,11 @@ a{
     background: url(./legend-thumnail.jpg) center/cover no-repeat;
     opacity: 0.6;
     width: 100vw;
-    height: 60vh;
+    height: 65vh;
     text-align: center;
     color: #FFF;
-    font-size: 2rem;
-    line-height: 5.5rem;
+    font-size: 1.4rem;
+    line-height: 4.5rem;
 }
 figcaption{
     text-align: center;

@@ -34,7 +34,7 @@ main{
     bottom: 7vh;
     border: transparent;
     position: fixed;
-    font-size: 3rem;
+    font-size: 2rem;
     color:white;
     font-family: 'Do Hyeon', sans-serif;
     z-index:10;
@@ -141,10 +141,9 @@ main{
     border: 1px solid black;
     border-radius: 10px;
     font-family: 'Notable', sans-serif;
-    padding: 10px 10px;
-    font-size: 4vw;
+    font-size: 2.5rem;
     text-align: center;
-    animation: getbigger 2s ease-in-out infinite;
+    animation: getbigger 3s ease-in-out infinite;
     width:30vw;
     height: 20vh;
     top:40vh;
