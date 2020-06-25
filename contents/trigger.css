@@ -29,7 +29,7 @@ strong{
 .point{
     text-align: center;
     font-size: 2rem;
-    height: 50vh;
+
     line-height: 5rem;
     border-bottom: 2px double slateblue;
 }
@@ -98,7 +98,7 @@ strong{
     text-align: center;
     width: 50vw;
     justify-content: center;
-    height: auto;
+
 }
 .a-text-wrapper ul,
 .b-text-wrapper ul{

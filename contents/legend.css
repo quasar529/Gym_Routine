@@ -20,7 +20,7 @@ a{
     background: url(./legend-thumnail.jpg) center/cover no-repeat;
     opacity: 0.6;
     width: 100vw;
-    height: 65vh;
+
     text-align: center;
     color: #FFF;
     font-size: 1.4rem;
@@ -39,7 +39,7 @@ figcaption{
 }
 .beginner, .mid, .advanced{
     width: 100vw;
-    height: 100vh;
+
     border: 1px solid rgba(21,21,21);
     padding-top: 10vh;
     padding-left: 10vw;
@@ -118,7 +118,7 @@ ol, ul{
 }
 .routine1, .routine2{
     color:#fff;
-    height: 100vh;
+
     font-family: 'Poor Story', cursive;
     text-align: left;
 }
@@ -136,7 +136,7 @@ ol, ul{
 }
 @media(max-width:650px){
     .img-container{
-        height: 45vh;
+
         font-size: 1.1rem;
         line-height: 3.5rem;
     }
@@ -144,10 +144,10 @@ ol, ul{
         flex-direction: column;
     }
     .mid, .advanced{
-        height: 130vh;
+
     }
     .beginner{
-        height: 150vh;
+
     }
     .divide, .recommend{
         padding: 3vh 0;
