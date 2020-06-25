@@ -32,15 +32,8 @@ window.addEventListener("DOMContentLoaded",showPerson());
 function showPerson(){
     const item=specialists[current];
     img.src=item.img;
-    // if(current===1){
-    //     img.style.width="80%";
-    //     console.log("egg");
-    // }else{
-    //     img.style.width="30vw";
-    // }
     name.textContent=item.name;
     link.href=item.link;
-    console.log(item);
 }
 
 nextBtn.addEventListener('click',function(){
