@@ -8,7 +8,7 @@ body{
     font-family: 'Do Hyeon', sans-serif;
     font-size: 16px;
     overflow-x: hidden;
-    height: 100%;
+
 }
 header{
     font-size: 3.3rem;
@@ -22,16 +22,22 @@ ul{
 strong{
     text-decoration: underline;
 }
-.img1{
-    width: 30vw;
+.img1,.img2{
+    width: 70%
 }
 
 .point{
     text-align: center;
     font-size: 2rem;
-
     line-height: 5rem;
     border-bottom: 2px double slateblue;
+    margin-bottom: 5vh;
+    padding-bottom: 5vh;
+}
+.summary ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .program-wrapper{
     display: flex;
@@ -83,22 +89,21 @@ strong{
 }
 .routine-a, .routine-b{
     margin-top: 10vh;
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     line-height: 3rem;
     text-align: center;
     align-items: center;
     border: 1px dotted slateblue;
-    height: auto;
-    margin: 0 3vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0 2vw;
 }
 .a-text-wrapper, .b-text-wrapper{
     display: flex;
     flex-direction: row;
     align-items: center;
     text-align: center;
-    width: 50vw;
     justify-content: center;
-
 }
 .a-text-wrapper ul,
 .b-text-wrapper ul{
@@ -106,7 +111,11 @@ strong{
     border-right: 1px solid slateblue; */
     padding: 0 2vw;
     margin: 0 5vw;
-    word-break : keep-all; 
+    word-break : nowrap; 
+}
+.a-text-wrapper ul li,
+.b-text-wrapper ul li{
+    border-bottom: 1px solid slateblue;
 }
 .long-term{
     font-size: 1.5rem;
@@ -118,7 +127,7 @@ strong{
 }
 @media(max-width:700px){
     .point{
-        height: 60vh;
+
     }
     .routine-wrapper{
         display: flex;
@@ -141,4 +150,8 @@ strong{
     .first, .second, .third{
         width: 80vw;
     }
+    .a-text-wrapper ul li,
+.b-text-wrapper ul li{
+    border: none;
+}
 }
